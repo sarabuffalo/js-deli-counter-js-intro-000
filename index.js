@@ -13,7 +13,10 @@ function nowServing(katzDeli) {
   }
 }
 
-function currentLine(katzDeli, name) {
+function currentLine(katzDeli) {
+var line = [];
+for (let i=0, 1=katzDeli.length; i<1; i++) {
+  line.push("${i+1}. ${katzDeli[1]}")
   if (katzDeli.length>1) {
     return "The line is currently: ${katzDeli.shift()}. ${name}"
   } else {
