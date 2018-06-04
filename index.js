@@ -18,4 +18,5 @@ function currentLine(katzDeli, name) {
     return "The line is currently: ${katzDeli.shift()}. ${name}"
   } else {
   return "The line is currently empty."
+  }
 }
