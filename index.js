@@ -16,6 +16,6 @@ function nowServing(katzDeli) {
 function currentLine(katzDeli, name) {
   if (katzDeli.length>1) {
     return "The line is currently: ${katzDeli.shift()}. ${name}"
-  else {
+  } else {
   return "The line is currently empty."
 }
